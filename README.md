@@ -191,6 +191,12 @@ For instance, you can easily start a service using [vLLM](https://github.com/vll
 vllm serve deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --tensor-parallel-size 2 --max-model-len 32768 --enforce-eager
 ```
 
+You can also easily start a service using [SGLang](https://github.com/sgl-project/sglang)
+
+```bash
+python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --trust-remote-code --tp 2
+```
+
 **NOTE: We recommend setting an appropriate temperature (between 0.5 and 0.7) when running these models, otherwise you may encounter issues with endless repetition or incoherent output.**
 
 ## 7. License
