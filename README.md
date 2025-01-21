@@ -197,7 +197,14 @@ You can also easily start a service using [SGLang](https://github.com/sgl-projec
 python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B --trust-remote-code --tp 2
 ```
 
-**NOTE: We recommend setting an appropriate temperature (between 0.5 and 0.7) when running these models, otherwise you may encounter issues with endless repetition or incoherent output.**
+### Usage Recommendations
+
+**We recommend adhering to the following configurations when utilizing the DeepSeek-R1 series models, including benchmarking, to achieve the expected performance:**
+
+1. Set the temperature within the range of 0.5-0.7 (0.6 is recommended) to prevent endless repetitions or incoherent outputs.
+2. Avoid adding a system prompt; all instructions should be contained within the user prompt.
+3. For mathematical problems, it is advisable to include a directive in your prompt such as: "put your final answer within \boxed{}".
+4. When evaluating model performance, it is recommended to conduct multiple tests and average the results.
 
 ## 7. License
 This code repository and the model weights are licensed under the [MIT License](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE).
