@@ -56,6 +56,8 @@ we introduce DeepSeek-R1, which incorporates cold-start data before RL.
 DeepSeek-R1 achieves performance comparable to OpenAI-o1 across math, code, and reasoning tasks. 
 To support the research community, we have open-sourced DeepSeek-R1-Zero, DeepSeek-R1, and six dense models distilled from DeepSeek-R1 based on Llama and Qwen. DeepSeek-R1-Distill-Qwen-32B outperforms OpenAI-o1-mini across various benchmarks, achieving new state-of-the-art results for dense models.
 
+**NOTE: Before running DeepSeek-R1 series models locally, we kindly recommend reviewing the [Usage Recommendation](#usage-recommendations) section.**
+
 <p align="center">
   <img width="80%" src="figures/benchmark.jpg">
 </p>
@@ -202,8 +204,8 @@ python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
 **We recommend adhering to the following configurations when utilizing the DeepSeek-R1 series models, including benchmarking, to achieve the expected performance:**
 
 1. Set the temperature within the range of 0.5-0.7 (0.6 is recommended) to prevent endless repetitions or incoherent outputs.
-2. Avoid adding a system prompt; all instructions should be contained within the user prompt.
-3. For mathematical problems, it is advisable to include a directive in your prompt such as: "put your final answer within \boxed{}".
+2. **Avoid adding a system prompt; all instructions should be contained within the user prompt.**
+3. For mathematical problems, it is advisable to include a directive in your prompt such as: "Please reason step by step, and put your final answer within \boxed{}."
 4. When evaluating model performance, it is recommended to conduct multiple tests and average the results.
 
 ## 7. License
