@@ -92,7 +92,7 @@ To support the research community, we have open-sourced DeepSeek-R1-Zero, DeepSe
 </div>
 
 DeepSeek-R1-Zero & DeepSeek-R1 are trained based on DeepSeek-V3-Base. 
-For more details regrading the model architecture, please refer to [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) repository.
+For more details regarding the model architecture, please refer to [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) repository.
 
 ### DeepSeek-R1-Distill Models
 
