@@ -32,11 +32,8 @@
 </div>
 
 <div align="center" style="line-height: 1;">
-  <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE-CODE" style="margin: 2px;">
-    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
-  </a>
-  <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE-MODEL" style="margin: 2px;">
-    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  <a href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE" style="margin: 2px;">
+    <img alt="License" src="https://img.shields.io/badge/License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
 
@@ -182,6 +179,8 @@ We also provide OpenAI-Compatible API at DeepSeek Platform: [platform.deepseek.c
 ### DeepSeek-R1 Models
 
 Please visit [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) repo for more information about running DeepSeek-R1 locally.
+
+**NOTE: Hugging Face's Transformers has not been directly supported yet.**
 
 ### DeepSeek-R1-Distill Models
 
