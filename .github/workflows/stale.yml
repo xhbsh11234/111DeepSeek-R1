@@ -1,10 +1,12 @@
 name: "Mark and close stale issues"
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
   stale:
+    if: ${{ github.repository == 'deepseek-ai/DeepSeek-R1' }}
     runs-on: ubuntu-latest
     steps:
       - name: "Mark and close stale issues"
