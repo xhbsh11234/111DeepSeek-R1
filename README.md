@@ -211,6 +211,8 @@ Additionally, we have observed that the DeepSeek-R1 series models tend to bypass
 **To ensure that the model engages in thorough reasoning, we recommend enforcing the model to initiate its response with "\<think\>\n" at the beginning of every output.**
 
 ### Official Prompts
+In the official DeepSeek web/app, we don't use system prompts but design two specific prompts for file upload and web search for better user experience. In addition, the temperature in web/app is 0.6. 
+
 For file upload, please follow the template to create prompts, where {file_name}, {file_content} and {question} are arguments. 
 ```
 file_template = \
