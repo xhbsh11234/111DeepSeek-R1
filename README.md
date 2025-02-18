@@ -271,7 +271,6 @@ DeepSeek-R1 series support commercial use, allow for any modifications and deriv
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2501.12948}, 
 }
-
 ```
 
 ## 9. Contact
